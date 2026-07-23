@@ -1,9 +1,26 @@
 aid: autoscience
 name: Autoscience
-description: 'Autoscience is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Autoscience (Autoscience Institute) builds AI systems that train state-of-the-art
+  models for frontier and applied AI labs. The company automates AI research itself,
+  developing agents and infrastructure that design, run, and evaluate machine-learning
+  experiments to accelerate model development and automated scientific discovery.
+  Autoscience is an early-stage AI research company backed by General Catalyst and
+  is hiring engineers, researchers, and designers. It currently publishes a marketing
+  site, a research blog, and a careers page; no public API, developer portal, SDKs,
+  or machine-readable API specifications have been located at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/autoscience/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.autoscience.ai/auto-home/assets/logo-autoscience.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +29,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Machine Learning
+- AI Research
+- Automated Research
+- Model Training
+- Frontier Models
 apis: []
+common:
+- type: DomainSecurity
+  url: security/autoscience-domain-security.yml
+- type: Website
+  url: https://www.autoscience.ai/
+- type: Blog
+  url: https://www.autoscience.ai/blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
