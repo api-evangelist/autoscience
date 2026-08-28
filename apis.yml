@@ -9,6 +9,17 @@ description: 'Autoscience (Autoscience Institute) builds AI systems that train s
   site, a research blog, and a careers page; no public API, developer portal, SDKs,
   or machine-readable API specifications have been located at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/autoscience/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
